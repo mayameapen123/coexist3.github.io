@@ -30,6 +30,6 @@ $(".c2").on("mouseenter",function(){
 });
 
 $(".c2").on("mouseleave",function(){
-  $(".a2").css("opacity","1");
+  $(".a2").css("opacity","0.2");
 
 });
