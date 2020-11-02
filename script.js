@@ -24,12 +24,13 @@ $(".c1").on("mouseleave",function(){
 
 });
 
+
 $(".c2").on("mouseenter",function(){
   $(".a2").css("opacity","0.2");
 
 });
 
 $(".c2").on("mouseleave",function(){
-  $(".a2").css("opacity","0.2");
+  $(".a2").css("opacity","0.5");
 
 });
