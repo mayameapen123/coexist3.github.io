@@ -19,8 +19,8 @@ a {
 }
 
 a:hover {
-  color: black;
-  opacity: 0.2;
+    color: white;
+opacity: 0.2;
   text-decoration-line: none;
 }
 
