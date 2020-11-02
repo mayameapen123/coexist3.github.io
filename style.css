@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+}
+
+.info {
+  width: 700px;
+  position: relative;
+  left: 200px;
+
+}
+
+a {
+  color: white;
+  opacity: 0.5;
+}
+.bld {
+  opacity:1;
+  font-weight: medium;
+}
+
+.navigation_side {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+  float: right;
+  width: 140px;
+  z-index:1;
+}
+.navigation_lines{
+  position: fixed;
+    
+    right: 24px;
+  float: right;
+  width: 150px;
+  z-index:2;
+}
+.vline {
+  
+  margin-top: -200px;
+  width: 1px;
+  height: 10000px;
+  background-color: white;
+}
+.hline {
+  width: 320px;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.tog {
+  position: fixed;
+  margin-left: 40px;
+  margin-top: 500px;
+  z-index: 4;
+  
+}
+
+h2 {
+  font-family: 'Rajdhani', sans-serif;  
+  transform: rotate(90deg);
+ font-size: 16px;
+  margin-top: 70%;
+  width: 100%;
+}
+
+
+
