@@ -18,6 +18,13 @@ a {
   font-weight: medium;
 }
 
+a:hover {
+  color: black;
+  opacity: 0.2;
+  text-decoration-line: none;
+}
+
+
 .navigation_side {
     position: fixed;
     top: 30px;
