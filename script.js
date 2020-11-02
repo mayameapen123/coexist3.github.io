@@ -15,21 +15,21 @@ $(".c3").click(function() {
 });
 
 $(".c1").on("mouseenter",function(){
-$(".a1").addClass("lowopac");
+  $(".a1").css("opacity","0.2");
 
 });
 
 $(".c1").on("mouseleave",function(){
-$(".a1").removeClass("lowopac");
+  $(".a1").css("opacity","0.5");
 
 });
 
 $(".c2").on("mouseenter",function(){
-$(".a2").addClass("lowopac");
+  $(".a2").css("opacity","0.2");
 
 });
 
 $(".c2").on("mouseleave",function(){
-$(".a2").removeClass("lowopac");
+  $(".a2").css("opacity","1");
 
 });
